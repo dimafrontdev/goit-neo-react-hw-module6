@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px auto;
+  width: 600px;
+
+  .field {
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    input {
+      height: 38px;
+      border-radius: 6px;
+      border: 1px solid #d1d5db;
+      padding: 4px 8px;
+    }
+
+    .error {
+      position: absolute;
+      bottom: -18px;
+      left: 0;
+      font-size: 12px;
+      color: #ef4444;
+    }
+  }
+
+  .submit {
+    min-width: 130px;
+    height: 38px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: #2563eb;
+    }
+  }
+}

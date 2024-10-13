@@ -1,0 +1,44 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #eff6ff;
+  padding: 8px 12px;
+  text-align: left;
+
+  .name,
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1d4ed8;
+  }
+
+  .phone {
+    font-weight: 300;
+    font-size: 16px;
+    color: #4b5563;
+  }
+
+  .delete {
+    background: #ef4444;
+    color: white;
+    border: none;
+    max-height: 38px;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: #f87171;
+    }
+  }
+}

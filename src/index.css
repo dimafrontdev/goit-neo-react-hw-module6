@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif, 'Roboto';
+  line-height: 1.5;
+  background: linear-gradient(90deg, #DBEAFE 0%, #BFDBFE 100%);}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
